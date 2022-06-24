@@ -138,6 +138,17 @@ body {
     #state {
         font-size: 70%;
     }
+    #amount_box {
+        width: 65%;
+        margin-left: 7%;
+    }
+    #piggy_bank_img {
+        width: 65%;
+    }
+    #refresh {
+        width: 5%;
+        margin-right: 0%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -171,43 +182,5 @@ body {
     #refresh {
         width: 7%;
         margin-right: 0%;
-    }
-}
-
-@media (max-width: 300px) {
-    #inside {
-        margin: 0;
-        margin-bottom: 4%;
-        font-size: 40%;
-    }
-    #amount {
-        font-size: 100%;
-        margin: 0;
-        padding-top: 1%;
-    }
-    .progress-circle {
-        font-size: 2em;
-    }
-    #state {
-        font-size: 56%;
-        width: 30%;
-    }
-    #amount_box {
-        width: 60%;
-        margin-left: 16%;
-    }
-    #piggy_bank_img {
-        width: 60%;
-    }
-    #refresh {
-        width: 5%;
-        margin-right: 9%;
-    }
-    #notice {
-        font-size: 100%;
-    }
-    .foot {
-        width: 60%;
-        bottom: 5%;
     }
 }
