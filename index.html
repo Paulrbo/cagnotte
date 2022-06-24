@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Cagnotte Connectée
+    </title>
+    <link rel="icon" type="image/svg+xml" href="pic/sack-dollar-solid.svg">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/progress_bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+</head>
+
+<body style="word-spacing:normal;">
+    <div id="all">
+        <div class="big_center">
+            <div id="amount_box">
+                <div id="left">
+                    <h3 id="inside">Montant dans la cagnotte :</h3>
+                    <h1 id="amount">255.38 €</h1>
+                </div>
+                <div id="right">
+                    <div class="progress-circle" data-value="83">
+                        <div class="progress-masque">
+                            <div class="progress-barre"></div>
+                            <div class="progress-sup50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a id="refresh" href="#"><img src="pic/arrow-rotate-right-solid.svg"></a>
+            <img id="piggy_bank_img" src="pic/piggy_bank.png">
+        </div>
+        <div id="state">
+            <p>Hors ligne</p>
+        </div>
+    </div>
+
+    <a class="foot" href="#">
+        <p id="notice">notice d'utilisation</p>
+    </a>
+
+    <script src="script/index.js" type="module"></script>
+</body>
+
+</html>
