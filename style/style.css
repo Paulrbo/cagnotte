@@ -158,9 +158,6 @@ body {
         font-size: 70%;
         width: 30%;
     }
-    .foot {
-        width: 50%;
-    }
     #amount_box {
         width: 80%;
         margin-left: 7%;
@@ -171,6 +168,9 @@ body {
     #refresh {
         width: 7%;
         margin-right: 0%;
+    }
+    .foot {
+        width: 20%;
     }
 }
 
@@ -191,6 +191,7 @@ body {
     #state {
         font-size: 56%;
         width: 30%;
+        background-color: rgb(43, 255, 0);
     }
     #amount_box {
         width: 60%;
