@@ -1,12 +1,32 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #8dc6ec;
-}
-
 .boxes {
     width: 100%;
     margin-top: 10%;
+}
+
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8dc6ec;
+        flex-direction: column;
+    }
+    .boxes {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #8dc6ec;
+    }
+    .boxes {
+        width: 50%;
+        margin-top: 5%;
+    }
 }
